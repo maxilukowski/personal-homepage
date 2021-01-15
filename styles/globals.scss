@@ -1,11 +1,18 @@
-html,
-body {
-  background-color: #356f86;
-  padding: 0;
-  margin: 0;
+html {
+  background-color: #417a90;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  color: rgb(250, 246, 246);
+  color: rgb(253 253 253);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 20px;
+  margin: 20px auto 20px;
+  max-width: 600px;
+  font-weight: 100;
+  height: 100vh;
 }
 
 a {
